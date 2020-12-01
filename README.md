@@ -55,7 +55,6 @@ I added comments to both files and then reorganised the code in the .css file to
 * ADDED the id of 'Search Engine Optimization' to the Search Engine Optimization section, to fix Nav link.
 *	ADDED comments to identify each section.
 <br>
-<br>
 
 ### .css document:
 <br>
