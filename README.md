@@ -1,7 +1,7 @@
 # 01 HTML CSS Git: Code Refactor
 
 ## Summary:
----
+
 After reviewing the User Story and Acceptance Criteria of the Code Refactor task, I read through the HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria and list them out.
 
 
@@ -13,9 +13,10 @@ Upon editing each HTML block containing a corresponding CSS Selector, I turned t
 
 I added comments to both files and then reorganised the code in the .css file to reflect the .html structure and comments.
 
+---
 
 ## Issues Identified:
----
+
 *	There is no meta information:
     * Viewport 
     * Description 
@@ -28,10 +29,10 @@ I added comments to both files and then reorganised the code in the .css file to
 *	Search Engine Optimization id missing for Nav link.
 *	No ```<alt>``` attribute for any of the ```<img>``` elements.
 ---
-<br>
+
 
 ## Changes Implemented:
----
+
 ### .html document:
 <br>
 
@@ -53,7 +54,9 @@ I added comments to both files and then reorganised the code in the .css file to
 *	EDITED the ```<img>``` element of the footer, and replaced the ```<img>``` with the 'footer' 	semantic element.
 * ADDED the id of 'Search Engine Optimization' to the Search Engine Optimization section, to fix Nav link.
 *	ADDED comments to identify each section.
----
+<br>
+<br>
+
 ### .css document:
 <br>
 
@@ -64,10 +67,10 @@ I added comments to both files and then reorganised the code in the .css file to
 *	REORDERED the CSS code  and placed into its respective commented section.
 *	ADDED comments to the code to separate the sections to reflect the HTML structure.
 ---
-<br>
 
 ## Sites used for research:
----
+<br>
+
 * HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
 * HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
 * SEO recommendations: [Mediacom](https://www.mediacom.com/)
