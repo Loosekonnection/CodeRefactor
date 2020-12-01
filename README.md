@@ -5,10 +5,10 @@
 After reviewing the User Story and Acceptance Criteria of the Code Refactor task, I read through the HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria and list them out.
 
 
-Following this I then began to work systematically down through the .html file and address each block in turn, and researching additional requirements where applicable.
+Following this I then began to work systematically down through the .html file and address each block in turn, and research additional requirements where applicable.
 
 
-Upon each eidting each block containing a corresponding CSS Selector, I turned to the .css file to edited the selectors to reflect my amendments.
+Upon editing each HTML block containing a corresponding CSS Selector, I turned to the .css file to edited the selectors to reflect my amendments within the HTML.
 
 
 I added comments to both files and then reorganised the code in the .css file to reflect the .html structure and comments.
