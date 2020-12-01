@@ -1,101 +1,55 @@
 # 01 HTML CSS Git: Code Refactor
 
-## Your Task
+## Review:
 
-**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
+After reviewing the User Story and Acceptance Criteria of the Code Refactor task, I read through the HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria.
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+## Areas of Identification:
+---
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+*	There is no meta information:
+    * Viewport 
+    * Description 
+    * Keywords 	
+    * Author
+*	The site title is not displaying the Company name.
+*	Semantics are not being used. All HTML blocks are wrapped in 'div' elements. 
+*	There are no comments within the CSS or HTML.
+*	The CSS file contains a lot of repeated code.
+*	Search Engine Optimization id missing for Nav link.
+*	No ‘alt’ attribute for any of the 'img' elements.
+---
+## Changes Made:
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+### .html document:
+---
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+*	ADDED meta tags with content to the head of the HTML document:
+	*	Description
+	*	Keywords
+	*	Author	
+	*	Viewport
+*	ADDED a title that reflects the company name ‘Horiseon’ and a small description, this now 	displays in the webpage tab.
+*	EDITED the first 'div' element of the header, and replaced the 'div' with the 'header' 	semantic element.
+*	REMOVED the CSS .header class from the Header semantic element.
+*	EDITED the 'div' element of the within the 'header', and replaced the 'div' with the 	'nav' 	semantic element.	
+*	EDITED the Hero Section 'div' and replaced it with the 'section' semantic.
+* ADDED a 'main' semantic section and moved the content and sidebar into it.
+*	EDITED the content 'div' and renamed it to 'section'.
+*	EDITED the 'div' within the content section and renamed them to 'article'.
+*	EDITED the benefits sidebar 'div' and renamed to 'aside'.
+*	ADDED the alt attribute to the three 'aside' img elements.
+*	EDITED the 'div' element of the footer, and replaced the 'div' with the 'footer' 	semantic element.
+*	REMOVED the CSS .footer class from the Header semantic element.
+* ADDED Search Engine Optimization id to the Search Engine Optimization section, to fix 	Nav link.
+*	ADDED comments to identify each section.
+---
+### .css document:
+---
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+*	EDITED the CSS .header class to target the 'header' semantic element.
+*	EDITED the CSS .header nav classes and removed the .header class name.
+*	EDITED the CSS .footer class to target the 'footer' semantic element.
+*	MERGED CSS classes with duplicate code using dry principle.
+*	ADDED comments to the code to separate the sections to reflect the HTML doc.
+*	MOVED CSS code around and placed into its respective commented section.
