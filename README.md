@@ -1,12 +1,21 @@
 # 01 HTML CSS Git: Code Refactor
 
-## Review:
+## Summary:
+---
+After reviewing the User Story and Acceptance Criteria of the Code Refactor task, I read through the HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria and list them out.
 
-After reviewing the User Story and Acceptance Criteria of the Code Refactor task, I read through the HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria.
+
+Following this I then began to work systematically down through the .html file and address each block in turn, and researching additional requirements where applicable.
+
+
+Upon each eidting each block containing a corresponding CSS Selector, I turned to the .css file to edited the selectors to reflect my amendments.
+
+
+I added comments to both files and then reorganised the code in the .css file to reflect the .html structure and comments.
+
 
 ## Areas of Identification:
 ---
-
 *	There is no meta information:
     * Viewport 
     * Description 
@@ -19,10 +28,12 @@ After reviewing the User Story and Acceptance Criteria of the Code Refactor task
 *	Search Engine Optimization id missing for Nav link.
 *	No ```<alt>``` attribute for any of the ```<img>``` elements.
 ---
-## Changes Made:
+<br>
 
-### .html document:
+## Changes Implemented:
 ---
+### .html document:
+<br>
 
 *	ADDED meta tags with content to the head of the HTML document:
 	*	Description
@@ -44,7 +55,7 @@ After reviewing the User Story and Acceptance Criteria of the Code Refactor task
 *	ADDED comments to identify each section.
 ---
 ### .css document:
----
+<br>
 
 *	EDITED the CSS ```.header``` class to target the ```<header>``` semantic element.
 *	EDITED the CSS ```.header nav``` classes and removed the .header class name.
@@ -53,8 +64,10 @@ After reviewing the User Story and Acceptance Criteria of the Code Refactor task
 *	REORDERED the CSS code  and placed into its respective commented section.
 *	ADDED comments to the code to separate the sections to reflect the HTML structure.
 ---
-## Sites used for research:
+<br>
 
+## Sites used for research:
+---
 * HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
 * HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
 * SEO recommendations: [Mediacom](https://www.mediacom.com/)
