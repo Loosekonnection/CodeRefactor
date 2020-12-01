@@ -32,7 +32,7 @@ After reviewing the User Story and Acceptance Criteria of the Code Refactor task
 *	ADDED a title that reflects the company name ‘Horiseon’ and a small description, this now 	displays in the webpage tab.
 *	EDITED the first 'div' element of the header, and replaced the 'div' with the 'header' 	semantic element.
 *	REMOVED the CSS .header class from the Header semantic element.
-*	EDITED the 'div' element of the within the 'header', and replaced the 'div' with the 	'nav' 	semantic element.	
+*	EDITED the 'div' element of the 'nav' contained within the 'header', and replaced the 'div' with the 	'nav' semantic element.	
 *	EDITED the Hero Section 'div' and replaced it with the 'section' semantic.
 * ADDED a 'main' semantic section and moved the content and sidebar into it.
 *	EDITED the content 'div' and renamed it to 'section'.
@@ -50,6 +50,13 @@ After reviewing the User Story and Acceptance Criteria of the Code Refactor task
 *	EDITED the CSS .header class to target the 'header' semantic element.
 *	EDITED the CSS .header nav classes and removed the .header class name.
 *	EDITED the CSS .footer class to target the 'footer' semantic element.
-*	MERGED CSS classes with duplicate code using dry principle.
+*	MERGED CSS classes with duplicate code using the dry principle.
 *	ADDED comments to the code to separate the sections to reflect the HTML doc.
 *	MOVED CSS code around and placed into its respective commented section.
+---
+## Areas used for research:
+
+* HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
+* HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
+* SEO recommendations: [Mediacom](https://www.mediacom.com/)
+* Meta Description & SEO: [MOZ](https://moz.com/learn/seo/meta-description)
