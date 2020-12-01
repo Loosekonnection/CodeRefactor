@@ -14,7 +14,7 @@ Upon editing each HTML block containing a corresponding CSS Selector, I turned t
 I added comments to both files and then reorganised the code in the .css file to reflect the .html structure and comments.
 
 
-## Areas of Identification:
+## Issues Identified:
 ---
 *	There is no meta information:
     * Viewport 
