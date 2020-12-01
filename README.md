@@ -40,21 +40,20 @@ After reviewing the User Story and Acceptance Criteria of the Code Refactor task
 *	EDITED the benefits sidebar 'div' and renamed to 'aside'.
 *	ADDED the alt attribute to the three 'aside' img elements.
 *	EDITED the 'div' element of the footer, and replaced the 'div' with the 'footer' 	semantic element.
-*	REMOVED the CSS .footer class from the Header semantic element.
-* ADDED Search Engine Optimization id to the Search Engine Optimization section, to fix 	Nav link.
+* ADDED the id of 'Search Engine Optimization' to the Search Engine Optimization section, to fix Nav link.
 *	ADDED comments to identify each section.
 ---
 ### .css document:
 ---
 
 *	EDITED the CSS .header class to target the 'header' semantic element.
-*	EDITED the CSS .header nav classes and removed the .header class name.
+*	EDITED the CSS '.header nav' classes and removed the .header class name.
 *	EDITED the CSS .footer class to target the 'footer' semantic element.
-*	MERGED CSS classes with duplicate code using the dry principle.
-*	ADDED comments to the code to separate the sections to reflect the HTML doc.
-*	MOVED CSS code around and placed into its respective commented section.
+*	MERGED the CSS classes containing duplicate code using the dry principle.
+*	REORDERED the CSS code  and placed into its respective commented section.
+*	ADDED comments to the code to separate the sections to reflect the HTML structure.
 ---
-## Areas used for research:
+## Sites used for research:
 
 * HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
 * HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
