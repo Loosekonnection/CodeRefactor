@@ -54,7 +54,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	EDITED the ```<div>``` element of the footer, and replaced the ```<div>``` with the ```<footer>``` 	semantic element.
 * ADDED the ```id``` of ```Search Engine Optimization``` to the Search Engine Optimization section, to fix Nav link.
 *	ADDED comments to divide and identify each HTML block.
-*   ADDED ```header``` & ```heading (h1/h3)``` classes to their respective HTML elements.
+*   ADDED ```heading (h1/h3)``` classes to their respective HTML elements.
 <br>
 
 <span style="color:yellow">.css document:</span>
@@ -83,7 +83,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 ---
 <br>
 
-![code-review](https://img.shields.io/badge/code--review-ready%20for%20critique-orange)
+![code-review](https://img.shields.io/badge/code--review-ready%20for%20review-green)
 
 <br>
 
