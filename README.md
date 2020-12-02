@@ -28,6 +28,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	The CSS file contains a lot of repeated code.
 *	Search Engine Optimization id missing for Nav link.
 *	No ```alt``` attribute for any of the ```<img>``` elements.
+*   ```header``` & ```heading (h1/h3)``` should not be qualified.
 ---
 <br>
 
@@ -54,6 +55,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	EDITED the ```<img>``` element of the footer, and replaced the ```<img>``` with the 'footer' 	semantic element.
 * ADDED the id of 'Search Engine Optimization' to the Search Engine Optimization section, to fix Nav link.
 *	ADDED comments to identify each section.
+*   ADDED ```header``` & ```heading (h1/h3)``` classes to their respective HTML elements.
 <br>
 
 <span style="color:yellow">.css document:</span>
@@ -65,6 +67,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	MERGED the CSS classes containing duplicate code using the dry principle.
 *	REORDERED the CSS code  and placed into its respective commented section.
 *	ADDED comments to the code to separate the sections to reflect the HTML structure.
+*   DECLARED ```header``` & ```heading (h1/h3)``` selectors as classes.
 ---
 <br>
 
@@ -72,10 +75,11 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 ## Credit Sites used for research:
 <br>
 
-* HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
-* HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
-* SEO recommendations: [Mediacom](https://www.mediacom.com/)
-* Meta Description & SEO: [MOZ](https://moz.com/learn/seo/meta-description)
+*   HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
+*   HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
+*   SEO recommendations: [Mediacom](https://www.mediacom.com/)
+*   Meta Description & SEO: [MOZ](https://moz.com/learn/seo/meta-description)
+*   CSS Selectors and Best Practices [Stack Overflow](https://stackoverflow.com/)
 
 ---
 <br>
