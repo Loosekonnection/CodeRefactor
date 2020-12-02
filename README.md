@@ -18,7 +18,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 ## Issues Identified:
 
 *	There is no meta information:
-    * Viewport 
+    * Viewport - <span style="color:red">Although there is no users story or criteria for responsive design, this is an important accessibility feature that needs raising.</span>
     * Description 
     * Keywords 	
     * Author
