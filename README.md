@@ -2,18 +2,18 @@
 
 ## Summary:
 
-After reviewing the User Story and Acceptance Criteria of the Code Refactor task, I read through the HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria and list them out.
+<span style="color:yellow">Homework assignment 01</span>
 
+After reviewing the README of the Code Refactor homework task, I read through the provided HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria, from which I then began to list out as bullet points.
 
-Following this I then began to work systematically down through the .html file and address each block in turn, and research additional requirements where applicable.
+Following this I then began to work systematically down through the .html file and address each HTML block in turn, where applicable I used online resources to research additional detail on how to correct/change issues. If I identifed more issues as I worked through the documents I would add them to the Issues Identified list.
 
+Upon editing each HTML block containing a corresponding CSS Selector I turned to the .css file to edited the selectors to reflect my amendments within the HTML.
 
-Upon editing each HTML block containing a corresponding CSS Selector, I turned to the .css file to edited the selectors to reflect my amendments within the HTML.
-
-
-I added comments to both files and then reorganised the code in the .css file to reflect the .html structure and comments.
+I then added comments to both of the HTML and CSS files, and then reorganised the code in the .css file to reflect the .html structure, and comment order.
 
 ---
+<br>
 
 ## Issues Identified:
 
@@ -29,11 +29,11 @@ I added comments to both files and then reorganised the code in the .css file to
 *	Search Engine Optimization id missing for Nav link.
 *	No ```<alt>``` attribute for any of the ```<img>``` elements.
 ---
-
+<br>
 
 ## Changes Implemented:
 
-### .html document:
+<span style="color:yellow">.html document:</span> 
 <br>
 
 *	ADDED meta tags with content to the head of the HTML document:
@@ -56,7 +56,7 @@ I added comments to both files and then reorganised the code in the .css file to
 *	ADDED comments to identify each section.
 <br>
 
-### .css document:
+<span style="color:yellow">.css document:</span>
 <br>
 
 *	EDITED the CSS ```.header``` class to target the ```<header>``` semantic element.
@@ -66,11 +66,23 @@ I added comments to both files and then reorganised the code in the .css file to
 *	REORDERED the CSS code  and placed into its respective commented section.
 *	ADDED comments to the code to separate the sections to reflect the HTML structure.
 ---
+<br>
 
-## Sites used for research:
+
+## Credit Sites used for research:
 <br>
 
 * HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
 * HTML5 Semantic Tags: What Are They and [How To Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
 * SEO recommendations: [Mediacom](https://www.mediacom.com/)
 * Meta Description & SEO: [MOZ](https://moz.com/learn/seo/meta-description)
+
+---
+<br>
+
+![code-review](https://img.shields.io/badge/code--review-ready%20for%20critique-orange)
+
+<br>
+
+---
+© 2020 Loosekonnection, Working towards being a Full Stack Dev.
