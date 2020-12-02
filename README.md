@@ -27,7 +27,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	There are no comments within the CSS or HTML documents.
 *	The CSS file contains a lot of repeated code.
 *	Search Engine Optimization id missing for Nav link.
-*	No ```<alt>``` attribute for any of the ```<img>``` elements.
+*	No ```alt``` attribute for any of the ```<img>``` elements.
 ---
 <br>
 
