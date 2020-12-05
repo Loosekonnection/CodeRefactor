@@ -6,9 +6,9 @@
 
 After reviewing the README of the Code Refactor homework task, I read through the provided HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria, from which I then began to list out as bullet points.
 
-Following this I then began to work systematically down through the .html file and address each HTML block in turn, where applicable I used online resources to research additional detail on how to correct/change issues. If I identifed more issues as I worked through the documents I would add them to the Issues Identified list.
+Following this I then began to work systematically down through the .html file and address each HTML block in turn. Where applicable I used online resources to research additional detail on how to correct and or change issues. If I identifed more issues as I worked through the changes to the documents, I would add them to the Issues Identified list.
 
-Upon editing each HTML block containing a corresponding CSS Selector I turned to the .css file to edited the selectors to reflect my amendments within the HTML.
+Upon editing each HTML block containing a corresponding CSS Selector I turned to the .css file to edited the selectors to reflect my amendments within the HTML, and also consolidate any duplicate CSS.
 
 I then added comments to both of the HTML and CSS files, and then reorganised the code in the .css file to reflect the .html structure, and comment order.
 
@@ -18,7 +18,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 ## Issues Identified:
 
 *	There is no meta information:
-    * Viewport - <span style="color:red">Although there is no users story or criteria for responsive design, this is an important accessibility feature that needs raising.</span>
+    * Viewport - <span style="color:red">Although there is no user story or criteria for responsive design, this is an important accessibility feature that I would advise upon.</span>
     * Description 
     * Keywords 	
     * Author
@@ -26,8 +26,9 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	Semantics are not being used. All HTML blocks are wrapped in ```<div>``` elements. 
 *	There are no comments within the CSS or HTML documents.
 *	The CSS file contains a lot of repeated code.
-*	Search Engine Optimization id missing for Nav link.
+*	The Search Engine Optimization id is missing from the content, so the Nav link doesn't work.
 *	No ```alt``` attribute for any of the ```<img>``` elements.
+*   Incorrect closing tag on the Cost Management ```<img>``` element.
 *   ```heading (h1/h3)``` should not be qualified in CSS.
 ---
 <br>
@@ -53,8 +54,8 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	ADDED the ```alt``` attribute to the three ```<aside>``` ```img``` elements.
 *	EDITED the ```<div>``` element of the footer, and replaced the ```<div>``` with the ```<footer>``` 	semantic element.
 * ADDED the ```id``` of ```Search Engine Optimization``` to the Search Engine Optimization section, to fix Nav link.
+*   ADDED Heading classes to their respective heading elements.
 *	ADDED comments to divide and identify each HTML block.
-*   ADDED ```heading (h1/h3)``` classes to their respective HTML elements.
 <br>
 
 <span style="color:yellow">.css document:</span>
@@ -79,6 +80,7 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *   SEO Recommendations: [Mediacom](https://www.mediacom.com/)
 *   Meta Description & SEO: [MOZ](https://moz.com/learn/seo/meta-description)
 *   CSS Selectors and Best Practices [Stack Overflow](https://stackoverflow.com/)
+*   Disallow Qualified Heading [GitHub](https://github.com/CSSLint/csslint/wiki/Disallow-qualified-headings)
 
 ---
 <br>
