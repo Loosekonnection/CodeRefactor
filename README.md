@@ -29,7 +29,6 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	The Search Engine Optimization id is missing from the content, so the Nav link doesn't work.
 *	No ```alt``` attribute for any of the ```<img>``` elements.
 *   Incorrect closing tag on the Cost Management ```<img>``` element.
-*   ```heading (h1/h3)``` should not be qualified in CSS.
 ---
 <br>
 
@@ -54,15 +53,13 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 *	ADDED the ```alt``` attribute to the three ```<aside>``` ```img``` elements.
 *	EDITED the ```<div>``` element of the footer, and replaced the ```<div>``` with the ```<footer>``` 	semantic element.
 * ADDED the ```id``` of ```Search Engine Optimization``` to the Search Engine Optimization section, to fix Nav link.
-*   ADDED Heading classes to their respective heading elements.
 *	ADDED comments to divide and identify each HTML block.
 <br>
 
 <span style="color:yellow">.css document:</span>
 <br>
 
-*   DECLARED ```heading (h1/h3)``` selectors as classes.
-* REMOVED ```nav``` from the ```.header``` class.
+*   REMOVED ```nav``` from the ```.header``` class.
 *	EDITED the CSS ```.footer``` class to target the ```<footer>``` semantic element.
 *	MERGED the CSS classes containing duplicate code using the dry principle.
 *	ADDED comments to the code to separate the sections to reflect the HTML structure.
