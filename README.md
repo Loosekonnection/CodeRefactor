@@ -2,7 +2,7 @@
 
 ## Summary:
 
-<span style="color:yellow">Homework assignment 01</span>
+<span style="color:yellow">Assignment 01</span>
 
 After reviewing the README of the Code Refactor homework task, I read through the provided HTML and CSS documents side by side to try and identify any areas that required changes or amendments that were inline with the provided User Stories and Acceptance Criteria, from which I then began to list out as bullet points.
 
@@ -68,8 +68,18 @@ I then added comments to both of the HTML and CSS files, and then reorganised th
 ---
 <br>
 
+## Site Details
 
-## Credit - Sites used for research:
+*   Please use this [Horiseon](https://loosekonnection.github.io/CodeRefactor/)  link to view the site:   
+
+*   Below are two screenshots of the site looks.
+
+![alt](Horiseon_01.PNG)
+![alt](Horiseon_02.PNG)
+
+---
+
+## Credits - Sites used for research:
 <br>
 
 *   HTML5 Semantic Elements In Depth | HTML5 | [#assemblyJS](https://www.youtube.com/watch?v=17vYHaf1E-A)
